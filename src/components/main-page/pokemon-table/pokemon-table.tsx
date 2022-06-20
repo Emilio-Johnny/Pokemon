@@ -2,10 +2,9 @@ import React from 'react';
 // @ts-ignore
 import{ useTable } from 'react-table';
 
-
 const PokemonTable = () => {
     // This is the data for the table
-    const pokemon = React.useMemo( () => [
+    const data = React.useMemo( () => [
         {
             name: 'pikachu',
             type: 'electric',
@@ -41,7 +40,7 @@ const PokemonTable = () => {
     const tableInstance = useTable(
         {
             columns,
-            pokemon,
+            data,
         }
     )
         const {
