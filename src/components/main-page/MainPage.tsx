@@ -5,7 +5,7 @@ import SearchBar from "../searchBar/searchBar";
 const MainPage = () => {
     return (
         <>
-            <div>Main Page</div>
+            <div className={'pokemonHeader'}>POKEMON SEARCH</div>
             <SearchBar />
             <PokemonTable />
         </>)

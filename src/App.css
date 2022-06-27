@@ -1,5 +1,15 @@
 .App {
   text-align: center;
+  background-image: url("./images/pexels-vincent-ma-janssen-1310847.jpg");
+  background-color: #cccccc;
+  height: 100vh;
+  background-position: center;
+  font-family: PokemonHollow;
+}
+
+@font-face {
+  font-family: 'PokemonHollow';
+  src: url("./fonts/PokemonHollow.ttf");
 }
 
 .App-logo {
@@ -35,4 +45,16 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.pokemonHeader{
+  font-size: 80px;
+  font-weight: bolder;
+  color: #2a75bb;
+  background-color: #ffcb05;
+  border: solid 5px #3c5aa6;
+  width: 40%;
+  margin: 0 auto;
+  border-radius: 3px;
+  text-shadow: 0 0 6px #282c34;
 }
