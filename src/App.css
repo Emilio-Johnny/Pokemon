@@ -4,12 +4,12 @@
   background-color: #cccccc;
   height: 100vh;
   background-position: center;
-  font-family: PokemonHollow;
+  font-family: PokemonSolid;
 }
 
 @font-face {
-  font-family: 'PokemonHollow';
-  src: url("./fonts/PokemonHollow.ttf");
+  font-family: 'PokemonSolid';
+  src: url("./fonts/PokemonSolid.ttf");
 }
 
 .App-logo {
@@ -50,11 +50,17 @@
 .pokemonHeader{
   font-size: 80px;
   font-weight: bolder;
-  color: #2a75bb;
+  color: black;
   background-color: #ffcb05;
-  border: solid 5px #3c5aa6;
-  width: 40%;
+  border: solid 5px black;
+  width: 100%;
   margin: 0 auto;
   border-radius: 3px;
   text-shadow: 0 0 6px #282c34;
+}
+
+.load-more{
+  font-size: large;
+  border-radius: 3px;
+  border: solid 5px black;
 }
