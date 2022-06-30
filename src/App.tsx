@@ -2,14 +2,13 @@ import React from 'react';
 // import logo from './logo.svg';
 // import './App.css';
 // import MainPage from "./components/main-page/MainPage";
-import ApolloClient from 'apollo-boost';
-import{ ApolloProvider } from "@apollo/react-hooks";
-
+import ApolloClient from 'apollo-boost'; // ApolloClient is a default import
+import{ ApolloProvider } from "@apollo/react-hooks"; // ApolloProvider is a "named" import
 
 
 
 function App() {
-    const client = new ApolloClient<any>({
+    const client = new ApolloClient({
         uri: 'https://graphql-pokemon.sh'
     }) as any;
 
