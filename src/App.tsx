@@ -14,7 +14,8 @@ function App() {
 
     return (
       <ApolloProvider client={client}>
-          <main>
+          <main className={'app'}>
+              <div>test</div>
               <PokemonsContainer />
           </main>
       </ApolloProvider>
