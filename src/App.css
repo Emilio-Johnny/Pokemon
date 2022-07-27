@@ -1,66 +1,66 @@
-/*.App {*/
-/*  text-align: center;*/
-/*  background-image: url("./images/pexels-vincent-ma-janssen-1310847.jpg");*/
-/*  background-color: #cccccc;*/
-/*  height: 100vh;*/
-/*  background-position: center;*/
-/*  font-family: PokemonSolid;*/
-/*}*/
+.App {
+  text-align: center;
+  background-image: url("./images/pexels-vincent-ma-janssen-1310847.jpg");
+  background-color: #cccccc;
+  height: 100vh;
+  background-position: center;
+  font-family: PokemonSolid;
+}
 
-/*@font-face {*/
-/*  font-family: 'PokemonSolid';*/
-/*  src: url("./fonts/PokemonSolid.ttf");*/
-/*}*/
+@font-face {
+  font-family: 'PokemonSolid';
+  src: url("./fonts/PokemonSolid.ttf");
+}
 
-/*.App-logo {*/
-/*  height: 40vmin;*/
-/*  pointer-events: none;*/
-/*}*/
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
 
-/*@media (prefers-reduced-motion: no-preference) {*/
-/*  .App-logo {*/
-/*    animation: App-logo-spin infinite 20s linear;*/
-/*  }*/
-/*}*/
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
 
-/*.App-header {*/
-/*  background-color: #282c34;*/
-/*  min-height: 100vh;*/
-/*  display: flex;*/
-/*  flex-direction: column;*/
-/*  align-items: center;*/
-/*  justify-content: center;*/
-/*  font-size: calc(10px + 2vmin);*/
-/*  color: white;*/
-/*}*/
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
 
-/*.App-link {*/
-/*  color: #61dafb;*/
-/*}*/
+.App-link {
+  color: #61dafb;
+}
 
-/*@keyframes App-logo-spin {*/
-/*  from {*/
-/*    transform: rotate(0deg);*/
-/*  }*/
-/*  to {*/
-/*    transform: rotate(360deg);*/
-/*  }*/
-/*}*/
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
 
-/*.pokemonHeader{*/
-/*  font-size: 80px;*/
-/*  font-weight: bolder;*/
-/*  color: black;*/
-/*  background-color: #ffcb05;*/
-/*  border: solid 5px black;*/
-/*  width: 100%;*/
-/*  margin: 0 auto;*/
-/*  border-radius: 3px;*/
-/*  text-shadow: 0 0 6px #282c34;*/
-/*}*/
+.pokemonHeader{
+  font-size: 80px;
+  font-weight: bolder;
+  color: black;
+  background-color: #ffcb05;
+  border: solid 5px black;
+  width: 100%;
+  margin: 0 auto;
+  border-radius: 3px;
+  text-shadow: 0 0 6px #282c34;
+}
 
-/*.load-more{*/
-/*  font-size: large;*/
-/*  border-radius: 3px;*/
-/*  border: solid 5px black;*/
-/*}*/
+.load-more{
+  font-size: large;
+  border-radius: 3px;
+  border: solid 5px black;
+}
